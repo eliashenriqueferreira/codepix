@@ -1,4 +1,4 @@
-module github.com/renatoosaka/codepix
+module github.com/eliashenriqueferreira/codepix
 
 go 1.15
 

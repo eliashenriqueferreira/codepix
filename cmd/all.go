@@ -18,9 +18,9 @@ package cmd
 import (
 	"os"
 
-	"github.com/renatoosaka/codepix/application/grpc"
-	"github.com/renatoosaka/codepix/application/kafka"
-	"github.com/renatoosaka/codepix/infrastructure/db"
+	"github.com/eliashenriqueferreira/codepix/application/grpc"
+	"github.com/eliashenriqueferreira/codepix/application/kafka"
+	"github.com/eliashenriqueferreira/codepix/infrastructure/db"
 	"github.com/spf13/cobra"
 
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"

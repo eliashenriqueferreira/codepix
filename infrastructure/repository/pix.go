@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/jinzhu/gorm"
-	"github.com/renatoosaka/codepix/domain/model"
+	"github.com/eliashenriqueferreira/codepix/domain/model"
 )
 
 type PixKeyRepositoryDB struct {

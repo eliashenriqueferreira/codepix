@@ -4,7 +4,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/renatoosaka/codepix/domain/model"
+	"github.com/eliashenriqueferreira/codepix/domain/model"
 )
 
 type TransactionUseCase struct {

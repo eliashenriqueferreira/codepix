@@ -20,8 +20,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/renatoosaka/codepix/application/grpc"
-	"github.com/renatoosaka/codepix/infrastructure/db"
+	"github.com/eliashenriqueferreira/codepix/application/grpc"
+	"github.com/eliashenriqueferreira/codepix/infrastructure/db"
 )
 
 var portNumber int

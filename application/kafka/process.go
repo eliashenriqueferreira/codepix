@@ -3,13 +3,13 @@ package kafka
 import (
 	"fmt"
 	"github.com/jinzhu/gorm"
-	"github.com/renatoosaka/codepix/application/factory"
-	"github.com/renatoosaka/codepix/application/usecase"
-	"github.com/renatoosaka/codepix/domain/model"
+	"github.com/eliashenriqueferreira/codepix/application/factory"
+	"github.com/eliashenriqueferreira/codepix/application/usecase"
+	"github.com/eliashenriqueferreira/codepix/domain/model"
 	"os"
 
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
-	appmodel "github.com/renatoosaka/codepix/application/model"
+	appmodel "github.com/eliashenriqueferreira/codepix/application/model"
 )
 
 type KafkaProcessor struct {
